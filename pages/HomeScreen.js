@@ -2,9 +2,9 @@
 import React, { useEffect } from 'react';
 import { SafeAreaView, Text, StyleSheet } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchTasks, addTask, deleteTask, toggleTaskStatus } from './rtk/slice';
-import ToDoForm from './ToDoForm';
-import ToDoList from './ToDoList';
+import { fetchTasks, addTask, deleteTask, toggleTaskStatus } from '../rtk/slice';
+import ToDoForm from '../components/ToDoForm';
+import ToDoList from '../components/ToDoList';
 import { StatusBar } from 'expo-status-bar';
 
 export default function HomeScreen({ navigation }) {

@@ -1,9 +1,10 @@
 import React from "react";
 
-import TabNavigator from "./TabNavigator";
+
 
 import { store } from "./rtk/store";
 import { Provider } from 'react-redux';
+import TabNavigator from "./components/TabNavigator";
 
 
 export default function App() {

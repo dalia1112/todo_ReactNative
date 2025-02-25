@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { loadTasks, saveTasks } from '../asyncStorageHelper';
+import { loadTasks, saveTasks } from '../components/asyncStorageHelper';
 
 export const fetchTasks = createAsyncThunk('tasks/fetchTasks', async () => {
   return await loadTasks();
